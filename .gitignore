@@ -1,2 +1,4 @@
 /mysql
 /src
+/nginx/laravel-docker.test.pem
+/nginx/laravel-docker.test-key.pem
