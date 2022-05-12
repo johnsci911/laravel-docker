@@ -16,3 +16,6 @@ CMD ["php-fpm", "-y", "/usr/local/etc/php-fpm.conf", "-R"]
 
 # docker-compose run --rm php chown -R laravel:www-data /var/www
 # mkcert laravel-docker.test
+
+# Production
+# docker-compose -f docker-compose.yml -f docker-compose.prod.yml up --build nginx
